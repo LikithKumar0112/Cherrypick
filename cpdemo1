@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Updating the server..."
+sudo apt-get update
+
+echo "upgrading the server..."
+sudo apt-get upgrade -y
+
